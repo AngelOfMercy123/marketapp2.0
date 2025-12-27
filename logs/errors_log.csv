@@ -1,0 +1,494 @@
+timestamp,where,error,traceback
+2025-12-17 23:49:59,Training failed,Not enough known outcomes yet (0/80). Track more weeks.,"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 2272, in <module>
+    m = train_meta_model_from_pred_log(min_rows=80)
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 1438, in train_meta_model_from_pred_log
+    raise RuntimeError(f""Not enough known outcomes yet ({len(done)}/{min_rows}). Track more weeks."")
+RuntimeError: Not enough known outcomes yet (0/80). Track more weeks.
+"
+2025-12-18 00:02:57,Training failed,Not enough known outcomes yet (0/80). Track more weeks.,"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 2992, in <module>
+    m = train_meta_model_from_pred_log(min_rows=80)
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 1438, in train_meta_model_from_pred_log
+    raise RuntimeError(f""Not enough known outcomes yet ({len(done)}/{min_rows}). Track more weeks."")
+RuntimeError: Not enough known outcomes yet (0/80). Track more weeks.
+"
+2025-12-18 00:59:37,Meta training failed,Not enough known outcomes yet (0/80). Track more weeks.,"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 2259, in <module>
+    m = train_meta_model_from_pred_log(min_rows=80)
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 1396, in train_meta_model_from_pred_log
+    raise RuntimeError(f""Not enough known outcomes yet ({len(done)}/{min_rows}). Track more weeks."")
+RuntimeError: Not enough known outcomes yet (0/80). Track more weeks.
+"
+2025-12-18 18:42:28,Meta training failed,Not enough known outcomes yet (0/80). Track more weeks.,"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 2756, in <module>
+    m = train_meta_model_from_pred_log(min_rows=80)
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 1602, in train_meta_model_from_pred_log
+    raise RuntimeError(f""Not enough known outcomes yet ({len(done)}/{min_rows}). Track more weeks."")
+RuntimeError: Not enough known outcomes yet (0/80). Track more weeks.
+"
+2025-12-19 23:08:27,Meta training failed,Not enough known outcomes yet (0/80). Track more weeks.,"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 2920, in <module>
+    m = train_meta_model_from_pred_log(min_rows=80)
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 1735, in train_meta_model_from_pred_log
+    raise RuntimeError(f""Not enough known outcomes yet ({len(done)}/{min_rows}). Track more weeks."")
+RuntimeError: Not enough known outcomes yet (0/80). Track more weeks.
+"
+2025-12-20 00:44:37,Backfill failed,Could not download baseline prices from Stooq for SPY (spy.us).,"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 3891, in <module>
+    bdf = build_relative_strength_backfill(
+        tickers=tickers,
+    ...<5 lines>...
+        source_tag=backfill_source_tag or ""BACKFILL"",
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\market_ai\\backfill_meta_training.py"", line 205, in build_relative_strength_backfill
+    raise RuntimeError(f""Could not download baseline prices from Stooq for {baseline} ({baseline_sym})."")
+RuntimeError: Could not download baseline prices from Stooq for SPY (spy.us).
+"
+2025-12-20 00:46:01,Meta training failed,Not enough known outcomes yet (0/80). Track more weeks.,"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 2936, in <module>
+    m = train_meta_model_from_pred_log(min_rows=80)
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 1751, in train_meta_model_from_pred_log
+    raise RuntimeError(f""Not enough known outcomes yet ({len(done)}/{min_rows}). Track more weeks."")
+RuntimeError: Not enough known outcomes yet (0/80). Track more weeks.
+"
+2025-12-20 00:53:08,Backfill failed,Could not download baseline prices from Stooq for SPY (spy.us).,"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 3891, in <module>
+    bdf = build_relative_strength_backfill(
+        tickers=tickers,
+    ...<5 lines>...
+        source_tag=backfill_source_tag or ""BACKFILL"",
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\market_ai\\backfill_meta_training.py"", line 205, in build_relative_strength_backfill
+    raise RuntimeError(f""Could not download baseline prices from Stooq for {baseline} ({baseline_sym})."")
+RuntimeError: Could not download baseline prices from Stooq for SPY (spy.us).
+"
+2025-12-20 16:42:21,Backfill failed,Could not download baseline prices from Stooq for SPY (spy.us).,"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 3891, in <module>
+    bdf = build_relative_strength_backfill(
+        tickers=tickers,
+    ...<5 lines>...
+        source_tag=backfill_source_tag or ""BACKFILL"",
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\market_ai\\backfill_meta_training.py"", line 205, in build_relative_strength_backfill
+    raise RuntimeError(f""Could not download baseline prices from Stooq for {baseline} ({baseline_sym})."")
+RuntimeError: Could not download baseline prices from Stooq for SPY (spy.us).
+"
+2025-12-20 16:56:27,Auto backfill + train failed,Failed baseline download: SPY (spy.us),"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4064, in <module>
+    dataset = build_backfill_dataset(
+        tickers=tickers_auto,
+    ...<3 lines>...
+        cache_dir=auto_backfill_cache_dir or STOOQ_CACHE_DIR,
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\market_ai\\backfill_ai.py"", line 215, in build_backfill_dataset
+    raise RuntimeError(f""Failed baseline download: {baseline} ({b_sym})"")
+RuntimeError: Failed baseline download: SPY (spy.us)
+"
+2025-12-20 17:19:08,Auto backfill + train failed,Failed baseline download: SPY (spy.us),"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4076, in <module>
+    dataset = build_backfill_dataset(
+        tickers=tickers_auto,
+    ...<3 lines>...
+        cache_dir=auto_backfill_cache_dir or STOOQ_CACHE_DIR,
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\market_ai\\backfill_ai.py"", line 215, in build_backfill_dataset
+    raise RuntimeError(f""Failed baseline download: {baseline} ({b_sym})"")
+RuntimeError: Failed baseline download: SPY (spy.us)
+"
+2025-12-20 17:19:18,Meta training failed,Not enough known outcomes yet (0/80). Track more weeks.,"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 3024, in <module>
+    m = train_meta_model_from_pred_log(min_rows=80)
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 1835, in train_meta_model_from_pred_log
+    raise RuntimeError(f""Not enough known outcomes yet ({len(done)}/{min_rows}). Track more weeks."")
+RuntimeError: Not enough known outcomes yet (0/80). Track more weeks.
+"
+2025-12-20 17:19:30,Auto backfill + train failed,Failed baseline download: SPY (spy.us),"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4076, in <module>
+    dataset = build_backfill_dataset(
+        tickers=tickers_auto,
+    ...<3 lines>...
+        cache_dir=auto_backfill_cache_dir or STOOQ_CACHE_DIR,
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\market_ai\\backfill_ai.py"", line 215, in build_backfill_dataset
+    raise RuntimeError(f""Failed baseline download: {baseline} ({b_sym})"")
+RuntimeError: Failed baseline download: SPY (spy.us)
+"
+2025-12-20 17:19:43,Backfill prices+news failed,Expecting value: line 1 column 1 (char 0),"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\requests\\models.py"", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py"", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py"", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py"", line 363, in raw_decode
+    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4137, in <module>
+    res = backfill_company(spec, news_days=news_days)
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\backfill.py"", line 34, in backfill_company
+    raw_news = fetch_news_gdelt(
+        ticker=spec.ticker,
+    ...<2 lines>...
+        days=news_days,
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\sources_news_gdelt.py"", line 48, in fetch_news_gdelt
+    data = r.json()
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\requests\\models.py"", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+"
+2025-12-20 17:19:49,Auto backfill + train failed,Failed baseline download: SPY (spy.us),"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4076, in <module>
+    dataset = build_backfill_dataset(
+        tickers=tickers_auto,
+    ...<3 lines>...
+        cache_dir=auto_backfill_cache_dir or STOOQ_CACHE_DIR,
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\market_ai\\backfill_ai.py"", line 215, in build_backfill_dataset
+    raise RuntimeError(f""Failed baseline download: {baseline} ({b_sym})"")
+RuntimeError: Failed baseline download: SPY (spy.us)
+"
+2025-12-20 17:36:18,Auto backfill + train failed,Failed baseline download: SPY (spy.us),"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4268, in <module>
+    dataset = build_backfill_dataset(
+        tickers=tickers_auto,
+    ...<3 lines>...
+        cache_dir=auto_backfill_cache_dir or STOOQ_CACHE_DIR,
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\market_ai\\backfill_ai.py"", line 215, in build_backfill_dataset
+    raise RuntimeError(f""Failed baseline download: {baseline} ({b_sym})"")
+RuntimeError: Failed baseline download: SPY (spy.us)
+"
+2025-12-20 19:14:00,Backfill prices+news failed,Expecting value: line 1 column 1 (char 0),"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\requests\\models.py"", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py"", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py"", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py"", line 363, in raw_decode
+    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4390, in <module>
+    res = backfill_company(spec, news_days=news_days)
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\backfill.py"", line 34, in backfill_company
+    raw_news = fetch_news_gdelt(
+        ticker=spec.ticker,
+    ...<2 lines>...
+        days=news_days,
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\sources_news_gdelt.py"", line 48, in fetch_news_gdelt
+    data = r.json()
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\requests\\models.py"", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+"
+2025-12-20 19:52:19,Backfill prices+news failed,Expecting value: line 1 column 1 (char 0),"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\requests\\models.py"", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py"", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py"", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py"", line 363, in raw_decode
+    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4387, in <module>
+    res = backfill_company(spec, news_days=news_days)
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\backfill.py"", line 34, in backfill_company
+    raw_news = fetch_news_gdelt(
+        ticker=spec.ticker,
+    ...<2 lines>...
+        days=news_days,
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\sources_news_gdelt.py"", line 48, in fetch_news_gdelt
+    data = r.json()
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\requests\\models.py"", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+"
+2025-12-20 19:52:22,Auto backfill + train failed,Failed baseline download: SPY (spy.us),"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4326, in <module>
+    dataset = build_backfill_dataset(
+        tickers=tickers_auto,
+    ...<3 lines>...
+        cache_dir=auto_backfill_cache_dir or STOOQ_CACHE_DIR,
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\market_ai\\backfill_ai.py"", line 215, in build_backfill_dataset
+    raise RuntimeError(f""Failed baseline download: {baseline} ({b_sym})"")
+RuntimeError: Failed baseline download: SPY (spy.us)
+"
+2025-12-20 19:52:25,Backfill failed,Could not download baseline prices from Stooq for SPY (spy.us).,"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4248, in <module>
+    bdf = build_relative_strength_backfill(
+        tickers=tickers,
+    ...<5 lines>...
+        source_tag=backfill_source_tag or ""BACKFILL"",
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\market_ai\\backfill_meta_training.py"", line 205, in build_relative_strength_backfill
+    raise RuntimeError(f""Could not download baseline prices from Stooq for {baseline} ({baseline_sym})."")
+RuntimeError: Could not download baseline prices from Stooq for SPY (spy.us).
+"
+2025-12-20 20:29:47,Training failed,"""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""","Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 3655, in <module>
+    _, metrics = train_model(
+                 ~~~~~~~~~~~^
+        uni,
+        ^^^^
+    ...<7 lines>...
+        calibrate_probs=bool(calibrate_probs),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 2366, in train_model
+    X = data[FEATURE_COLS].astype(float)
+        ~~~~^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\frame.py"", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, ""columns"")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6261, in _raise_if_missing
+    raise KeyError(f""None of [{key}] are in the [{axis_name}]"")
+KeyError: ""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""
+"
+2025-12-20 20:41:22,Backfill prices+news failed,Expecting value: line 1 column 1 (char 0),"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\requests\\models.py"", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py"", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py"", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py"", line 363, in raw_decode
+    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4923, in <module>
+    res = backfill_company(spec, news_days=news_days)
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\backfill.py"", line 34, in backfill_company
+    raw_news = fetch_news_gdelt(
+        ticker=spec.ticker,
+    ...<2 lines>...
+        days=news_days,
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\sources_news_gdelt.py"", line 48, in fetch_news_gdelt
+    data = r.json()
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\requests\\models.py"", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+"
+2025-12-20 20:41:42,Auto backfill + train failed,Failed baseline download: SPY (spy.us),"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4862, in <module>
+    dataset = build_backfill_dataset(
+        tickers=tickers_auto,
+    ...<3 lines>...
+        cache_dir=auto_backfill_cache_dir or STOOQ_CACHE_DIR,
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\market_ai\\backfill_ai.py"", line 215, in build_backfill_dataset
+    raise RuntimeError(f""Failed baseline download: {baseline} ({b_sym})"")
+RuntimeError: Failed baseline download: SPY (spy.us)
+"
+2025-12-20 20:43:19,Backfill prices+news failed,Expecting value: line 1 column 1 (char 0),"Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\requests\\models.py"", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py"", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py"", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py"", line 363, in raw_decode
+    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4923, in <module>
+    res = backfill_company(spec, news_days=news_days)
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\backfill.py"", line 34, in backfill_company
+    raw_news = fetch_news_gdelt(
+        ticker=spec.ticker,
+    ...<2 lines>...
+        days=news_days,
+    )
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\sources_news_gdelt.py"", line 48, in fetch_news_gdelt
+    data = r.json()
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\requests\\models.py"", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+"
+2025-12-20 23:25:12,Training failed,"""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""","Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4114, in <module>
+    _, metrics = train_model(
+                 ~~~~~~~~~~~^
+        uni,
+        ^^^^
+    ...<7 lines>...
+        calibrate_probs=bool(calibrate_probs),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 2825, in train_model
+    X = data[FEATURE_COLS].astype(float)
+        ~~~~^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\frame.py"", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, ""columns"")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6261, in _raise_if_missing
+    raise KeyError(f""None of [{key}] are in the [{axis_name}]"")
+KeyError: ""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""
+"
+2025-12-20 23:30:22,Training failed,"""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""","Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4121, in <module>
+    _, metrics = train_model(
+                 ~~~~~~~~~~~^
+        uni,
+        ^^^^
+    ...<7 lines>...
+        calibrate_probs=bool(calibrate_probs),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 2832, in train_model
+    X = data[FEATURE_COLS].astype(float)
+        ~~~~^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\frame.py"", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, ""columns"")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6261, in _raise_if_missing
+    raise KeyError(f""None of [{key}] are in the [{axis_name}]"")
+KeyError: ""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""
+"
+2025-12-20 23:48:24,Training failed,"""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""","Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4121, in <module>
+    _, metrics = train_model(
+                 ~~~~~~~~~~~^
+        uni,
+        ^^^^
+    ...<7 lines>...
+        calibrate_probs=bool(calibrate_probs),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 2832, in train_model
+    X = data[FEATURE_COLS].astype(float)
+        ~~~~^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\frame.py"", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, ""columns"")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6261, in _raise_if_missing
+    raise KeyError(f""None of [{key}] are in the [{axis_name}]"")
+KeyError: ""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""
+"
+2025-12-21 00:32:25,Training failed,"""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""","Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4417, in <module>
+    _, metrics = train_model(
+                 ~~~~~~~~~~~^
+        uni,
+        ^^^^
+    ...<7 lines>...
+        calibrate_probs=bool(calibrate_probs),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 3098, in train_model
+    X = data[FEATURE_COLS].astype(float)
+        ~~~~^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\frame.py"", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, ""columns"")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6261, in _raise_if_missing
+    raise KeyError(f""None of [{key}] are in the [{axis_name}]"")
+KeyError: ""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""
+"
+2025-12-21 01:34:38,Training failed,"""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""","Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4725, in <module>
+    _, metrics = train_model(
+                 ~~~~~~~~~~~^
+        uni,
+        ^^^^
+    ...<7 lines>...
+        calibrate_probs=bool(calibrate_probs),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 3406, in train_model
+    X = data[FEATURE_COLS].astype(float)
+        ~~~~^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\frame.py"", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, ""columns"")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6261, in _raise_if_missing
+    raise KeyError(f""None of [{key}] are in the [{axis_name}]"")
+KeyError: ""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""
+"
+2025-12-27 17:38:44,Training failed,"""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""","Traceback (most recent call last):
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 4725, in <module>
+    _, metrics = train_model(
+                 ~~~~~~~~~~~^
+        uni,
+        ^^^^
+    ...<7 lines>...
+        calibrate_probs=bool(calibrate_probs),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\streamlit_app.py"", line 3406, in train_model
+    X = data[FEATURE_COLS].astype(float)
+        ~~~~^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\frame.py"", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, ""columns"")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\\Users\\matty\\OneDrive\\Desktop\\marketapp\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py"", line 6261, in _raise_if_missing
+    raise KeyError(f""None of [{key}] are in the [{axis_name}]"")
+KeyError: ""None of [Index(['ret_1', 'ret_2', 'ret_5', 'vol_5', 'vol_20', 'mom_5_20', 'mom_10_50',\\n       'vol_z_20'],\\n      dtype='object')] are in the [columns]""
+"
