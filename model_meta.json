@@ -1,0 +1,20 @@
+{
+  "date_max": "2025-12-16 00:00:00",
+  "date_min": "1970-03-13 00:00:00",
+  "feature_cols": [
+    "ret_1",
+    "ret_2",
+    "ret_5",
+    "vol_5",
+    "vol_20",
+    "mom_5_20",
+    "mom_10_50",
+    "vol_z_20"
+  ],
+  "feature_fingerprint": "84a467f78ed1",
+  "horizon_days": 1,
+  "n_rows": 372578,
+  "seed": 1337,
+  "tickers": 48,
+  "trained_utc": "2025-12-20T20:41:03.771606"
+}

@@ -1,0 +1,35 @@
+{
+  "baseline": "SPY",
+  "tickers": [
+    {
+      "ticker": "WMT",
+      "labor_exposure": 6,
+      "labor_shock": 0,
+      "catalyst": 0,
+      "trend_flag": 1,
+      "jan_score": 0,
+      "volatile": false,
+      "earnings_in_days": 40
+    },
+    {
+      "ticker": "TJX",
+      "labor_exposure": 6,
+      "labor_shock": 0,
+      "catalyst": 0,
+      "trend_flag": 1,
+      "jan_score": -1,
+      "volatile": false,
+      "earnings_in_days": 50
+    },
+    {
+      "ticker": "NOW",
+      "labor_exposure": 2,
+      "labor_shock": 0,
+      "catalyst": -1,
+      "trend_flag": 1,
+      "jan_score": 2,
+      "volatile": true,
+      "earnings_in_days": 35
+    }
+  ]
+}
